@@ -10,7 +10,7 @@ class W extends Component {
     render() {
         //Every Method return Something
         return (
-            <>
+            <React.Fragment>
                 <h1 className='news'>News-23, 23.1-Using React Class Component(RCC) & Named Export</h1>
                 <h1>‘Aapne kitni baar pyar kiya hai?’: Congress MP asks VP Dhankhar in Rajya Sabha
                 </h1>
@@ -20,7 +20,7 @@ class W extends Component {
                 </p>
                 <img src='https://www.hindustantimes.com/ht-img/img/2023/02/10/550x309/rajya_sabha_dhankhar_dhankar_love_1676027904524_1676027904982_1676027904982.jpg' />
                 <X />
-            </>
+            </React.Fragment>
         )
     }
 }

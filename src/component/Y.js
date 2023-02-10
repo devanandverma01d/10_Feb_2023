@@ -11,7 +11,7 @@ export default class Y extends Component {
     render() {
         //Evry Function Return Something
         return (
-            <>
+            <React.Fragment>
                 <h1 className='news'>News-25, 25.1-Using React Class component(RCC) & Named Export</h1>
                 <h1>Punjab CM appeals to Behbal Kalan protesters to lift blockade on Amritsar-Bathinda highway
                 </h1>
@@ -19,7 +19,7 @@ export default class Y extends Component {
                 </p>
                 <img src='https://www.hindustantimes.com/ht-img/img/2023/02/10/550x309/Protesters-blocking-the-Amritsar-Bathinda-highway-_1676019090577.jpg' />
                 <Z />
-            </>
+            </React.Fragment>
         )
     }
 }

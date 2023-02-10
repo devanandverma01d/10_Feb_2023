@@ -10,7 +10,7 @@ export default class R extends Component {
     render() {
         // Every function/ method Return something
         return (
-            <>
+            <React.Fragment>
                 <h1 className='news'>News-18, 18.1- Using React Class Components & 18.2- Named Export</h1>
                 <h1>Martyrs’ Memorial in Telangana to be world’s largest 'seamless stainless steel structure'
                 </h1>
@@ -18,7 +18,7 @@ export default class R extends Component {
                 </p>
                 <img src='https://www.hindustantimes.com/ht-img/img/2023/02/10/550x309/memo_1676005693656_1676005705381_1676005705381.JPG' />
                 <S />
-            </>
+            </React.Fragment>
         )
     }
 }

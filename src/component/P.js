@@ -10,7 +10,7 @@ export default class P extends Component {
     render() {
         //Every Function return something
         return (
-            <>
+            <React.Fragment>
                 <h1 className='news'>News-16, 16.1-Using React Class Component(RCC) & 16.2- Named Export </h1>
                 <h1>After dust and debris, Chintels Paradiso residents fight uncertainty
                 </h1>
@@ -20,7 +20,7 @@ export default class P extends Component {
                 </p>
                 <img src='https://www.hindustantimes.com/ht-img/img/2023/02/09/550x309/Residents-of-Chintels-Paradiso-protest-against-the_1675967909082.jpg' />
                 <Q />
-            </>
+            </React.Fragment>
         )
     }
 }
