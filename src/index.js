@@ -1,17 +1,24 @@
+//1.Import area
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import A from "./component/A";
+
+//2. function definition area
+function App() {
+  //Every function return something
+  return (
+    <>
+      <h1 className='heading1'>This is My Project 3rd in this project I'm going to use functional as well as Class components</h1>
+    </>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <A />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//3. Export area
